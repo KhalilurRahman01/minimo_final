@@ -1,2 +1,2 @@
-# minimo
+ minimo
 psd
