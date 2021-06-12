@@ -1,0 +1,159 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.logo {
+    margin-top: 16px;
+    width: 21%;
+}
+
+.menu ul li a {
+   
+    margin: 0 5px;
+    padding: 0px 3px;
+    font-size: 15px;
+    
+}
+
+.menu {
+    width: 58%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+   
+}
+.Social {
+    width: 70%;
+    float: inherit;
+}
+.Social ul li {
+    list-style: none;
+    float: left;
+    margin-top: 6px;
+    margin-right: 3px;
+}
+.Social ul li a {
+   margin: 0 8px;
+    margin-left: 1px;
+    padding: 3px 0px;
+    display: inline-block;
+    color: #202020;
+    border-bottom: 1px solid transparent
+}
+.terms {
+    width: 90%;
+    float: left;
+}
+.terms ul li a {
+    margin: 0 5px;
+    padding: 1px 0px;
+}
+.s_form input {
+    
+    width: 101%;
+    margin-left: -55px;
+}
+
+.s_form {}
+ 
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+.logo {
+    margin-top: 16px;
+    width: 13%;
+    float: left;
+}
+
+.menu ul li a {
+   
+    margin: 0 5px;
+    padding: 0px 3px;
+    font-size: 15px;
+    
+}
+
+.menu {
+    width: 87%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+   
+}
+.Social ul li a {
+    margin: 0 4px;
+    padding: 3px 1px;
+    display: inline-block;
+    color: #202020;
+    border-bottom: 1px solid transparent;
+}
+
+.terms ul li a {
+    margin: 0 9px;
+    padding: 1px 3px;
+}
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.menu ul li a {
+   
+    margin: 0 5px;
+    padding: 0px 3px;
+    
+}
+.Social {
+    width: 32%;
+}
+.terms ul li a {
+    margin: 0 3px;
+    padding: 1px 3px;
+}
+
+.Social ul li a {
+    margin: 0 10px;
+    padding: 3px 1px;
+}
+
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.menu ul li a {
+   
+    margin: 0 21px;
+    padding: 0px 3px;
+    
+}
+
+.Social {
+    width: 32%;
+}
+
+
+
+ }
+
+ /*Extra large devices (Extra large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+.menu {
+    width: 76%;
+}
+
+
+
+ }
+
+ /*Extra Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+
+
+ }
